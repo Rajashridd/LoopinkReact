@@ -1,0 +1,14 @@
+.foot{
+    background-color: rgba(200, 200, 215, 0.384);
+    height:500px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+@media(min-width:320px) and (max-width:480px){
+.foot{
+    display:block;
+}
+}

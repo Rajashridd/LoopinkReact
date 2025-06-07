@@ -1,0 +1,97 @@
+.abouttitle{
+    margin-top:100px;
+    text-align: center;
+}
+.aboutfirst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:100px;
+}
+.aboutcontent{
+    padding:30px;
+    font-size: 15px;
+    text-align: center;
+}
+.aboutcontent button{
+    padding:10px;
+    border-radius: 10px;
+    background-color: rgba(54, 63, 245, 0.801);
+}
+.secondtitle{
+    text-align: center;
+    padding-top: 50px;
+}
+.aboutsecond{
+    background-color: rgba(128, 128, 128, 0.448);
+    height:650px;
+}
+.circleform{
+    background-color: rgb(255, 140, 0);
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.circleone{
+     background-color: rgb(191, 67, 14);
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.circleimg img{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+}
+.secondimg{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+    
+}
+.circles{
+    margin-top: 50px;
+    position:relative;
+    padding:20px;
+}
+.joint{
+    position:absolute;
+    left: 40px;
+    top:215px;
+    width:200px;
+    height:90px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding:5px;
+}
+
+@media(min-width:320px) and (max-width:480px){
+ .aboutfirst{
+    display:block;
+ }   
+ .aboutimg img{
+    height:300px;
+    width:300px;
+    padding-left:-50px;
+ }
+ .aboutfirst{
+     margin:5px;
+     height:750px;
+ }
+ .aboutcontent{
+    padding:0;
+ }
+ .secondimg{
+    display:block;
+ }
+ .aboutsecond{
+    height:1700px;
+ }
+}

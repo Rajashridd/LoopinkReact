@@ -1,0 +1,50 @@
+.contactsection{
+    background-color: rgb(242, 148, 114);
+    height:650px;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.contactbox{
+    width:300px;
+    height:500px;
+    background-color: white;
+    margin-top:50px;
+    border-radius: 10px;
+}
+.contactcontent{
+    padding-top: 200px;
+    font-size: 25px;
+    font-weight: 100px;
+    width:500px;
+}
+.contactcontent button{
+    padding:20px;
+    font-size:medium;
+    border-radius: 10px;
+}
+.contactbox{
+    padding:30px;
+}
+.contactbox input{
+    margin:20px;
+    padding:10px;
+}
+.contactbox button{
+    padding: 10px;
+    margin:20px;
+}
+
+
+@media(min-width:320px) and (max-width:480px){
+ .contactsection{
+    display:block;
+    height:1100px;
+ }   
+ .contactcontent{
+    width:300px;
+ }
+ .contactbox{
+   padding:0;
+ }
+}

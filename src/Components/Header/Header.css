@@ -1,0 +1,94 @@
+.headlogo{
+    font-size: 20px;
+    display:flex;
+}
+.headlogo span{
+    color:rgb(233, 105, 126);
+}
+.logoimg i{
+    color:black;
+    font-size: 50px;
+    padding-top: 35px ;
+    padding-right: 10px;
+}
+.headnav a{
+    text-decoration: none;
+        color:rgb(18, 18, 18);
+        font-weight: 800;
+
+}
+.headnav li{
+    list-style-type: none;
+    font-size: 20px;
+}
+.head{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.384) ;
+    height:100px;
+}
+.headnav ul li{
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+.dropdown li{
+    display:block !important;
+}
+.supermenu:hover .dropdown{
+    display: block;
+    transition: all 0.8s ease-in-out;
+}
+.supermenu{
+    position:relative;
+}
+.dropdown{
+    position:absolute;
+    left: -50px;
+    background-color: rgb(206, 205, 205);
+    display: none ;
+    z-index: 2;
+}
+
+
+@media (min-width:320px) and (max-width:480px){
+.head{
+    display:flex;
+}
+.headnav ul li{
+    display:block;
+    padding:5px;
+}
+.headnav a{
+        color:rgb(30, 161, 175);
+}
+.headnav{
+    position:absolute;
+    top:75px;
+    right:200px;
+    z-index: 2;
+    display:none;
+}
+.menutoggle{
+    position: relative;
+}
+.menutoggle span{
+   background-color: black;
+   height:5px;
+   width:30px;
+   display:block;
+   margin:5px;
+}
+.menutoggle:hover .headnav{
+    display: block;
+    transition: all 0.8s ease-in-out;
+}
+.dropdown{
+    left:100px;
+    top:0;
+}
+
+}
+    

@@ -1,0 +1,40 @@
+.financeboxinput{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.finbox{
+    width:500px;
+    margin:20px;
+    padding:20px;
+}
+.finance{
+    text-align: center;
+    margin-top:100px;
+}
+.financecontent{
+    margin:100px;
+}
+.financecontent h1{
+    margin:20px;
+}
+.finbox h1{
+    color:blue;
+}
+.financebox1{
+    background-color: rgb(213, 242, 242);
+}
+
+
+@media(min-width:320px) and (max-width:480px){
+.financecontent{
+  margin:10px;
+}
+.financeboxinput{
+    display:block;
+}
+.finbox{
+    width:250px;
+    margin:0;
+}
+}

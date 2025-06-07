@@ -1,0 +1,37 @@
+.travelbox1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.travel{
+    text-align: center;
+    margin:100px;
+    padding:20px;
+}
+.travelboxing{
+    margin:50px 0;
+}
+.travelboxes{
+    margin:50px;
+}
+.travelling{
+    width:500px;
+    padding:10px;
+    margin:20px;
+    background-color: rgba(250, 235, 215, 0.373);
+}
+
+@media(min-width:320px) and (max-width:480px){
+.travel{
+    margin:0;
+}
+.travelbox1{
+    display:block;
+}
+.travelling{
+    width:250px;
+}
+.travelboxes{
+    margin:50px 0;
+}
+}
