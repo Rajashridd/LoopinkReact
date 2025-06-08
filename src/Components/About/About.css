@@ -8,6 +8,12 @@
     align-items: center;
     margin:100px;
 }
+.aboutfirst1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:100px;
+}
 .aboutcontent{
     padding:30px;
     font-size: 15px;
